@@ -9,8 +9,8 @@ library.add(fas);
 function Header() {
   return (
     <div>
-      <p className="text-center text-4xl">HyprConf</p>
-      <p className="text-center text-xl">Hyprland configuration tool</p>
+      <p className="text-center text-4xl">HyprGen</p>
+      <p className="text-center text-xl">Hyprland configuration generator tool</p>
       <p className="text-md pt-4 text-center italic">
         "Whaddya want to configure?"
       </p>

@@ -9,7 +9,7 @@ export default ({ title, description, faIcon, navLink }) => {
     <a
       className={
         ThemeData.surface +
-        " flex h-24 w-[24rem] flex-row items-center rounded-xl px-5" +
+        " flex h-28 w-[21rem] flex-row items-center rounded-xl px-5" +
         " hover-scale-105 transition-all hover:border-4 hover:border-[#ffffff40] hover:shadow-xl"
       }
       onClick={() => navigator(navLink)}
@@ -17,7 +17,7 @@ export default ({ title, description, faIcon, navLink }) => {
       <div className="min-w-[2rem] text-center text-3xl text-white">
         <FontAwesomeIcon icon={["fas", faIcon]} />
       </div>
-      <div className="w-4"></div>
+      <div className="w-6"></div>
       <div>
         <h1 className={ThemeData.onPrimary + " text-start text-2xl font-bold"}>
           {title}

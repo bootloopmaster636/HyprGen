@@ -11,7 +11,8 @@ export default function AppBar({ title }: AppBarParams) {
   return (
     <div
       className={
-        ThemeData.backgroundDeep + " flex h-14 flex-row items-center px-6"
+        ThemeData.backgroundDeep +
+        " sticky top-0 flex h-14 w-screen flex-row items-center px-6 "
       }
     >
       <div onClick={() => navigator("/")} className={ThemeData.onPrimary}>
