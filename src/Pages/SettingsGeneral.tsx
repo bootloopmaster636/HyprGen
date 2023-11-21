@@ -37,7 +37,38 @@ export default function SettingsGeneralPage() {
             description="Border color for active window"
           />
         </div>
+
         <p className={"pb-2 pt-6 text-3xl"}>Misc.</p>
+        <div className={"grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"}>
+          <SettingsTile
+            title="Tiling Layout"
+            description="Which tiling layout to use"
+          />
+          <SettingsTile
+            title="Cursor Warping"
+            description="If enabled, will warp the cursor in many cases (focusing, keybinds, etc)"
+          />
+          <SettingsTile
+            title="Focus Fallback"
+            description="If disabled, will not fall back to the next available window when moving focus in a direction where no window was found"
+          />
+          <SettingsTile
+            title="Apply sensitivity to raw input"
+            description="[NOT RECOMMENDED] If enabled, will also apply the sensitivity to raw mouse output (e.g. sensitivity in games)."
+          />
+          <SettingsTile
+            title="Resize on border"
+            description="Allows you to resize windows by clicking and dragging on borders and gaps"
+          />
+          <SettingsTile
+            title="Extend border grab area"
+            description="Extend the area around the border where you can grab it to resize"
+          />
+          <SettingsTile
+            title="Allow screen tearing"
+            description="Master switch for allowing screen tearing to occur. See the Tearing page."
+          />
+        </div>
       </div>
     </div>
   );

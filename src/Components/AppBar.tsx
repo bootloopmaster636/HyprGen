@@ -14,8 +14,9 @@ export default function AppBar({ title }: AppBarParams) {
         ThemeData.backgroundDeep +
         " sticky top-0 flex h-14 w-screen flex-row items-center px-6 "
       }
+      onClick={() => navigator("/")}
     >
-      <div onClick={() => navigator("/")} className={ThemeData.onPrimary}>
+      <div className={ThemeData.onPrimary}>
         <p>
           <FontAwesomeIcon icon={"angle-left"}></FontAwesomeIcon>
         </p>

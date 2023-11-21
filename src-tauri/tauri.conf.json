@@ -6,8 +6,8 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "hyprconf",
-    "version": "0.0.0"
+    "productName": "hyprgen",
+    "version": "0.1.0"
   },
   "tauri": {
     "allowlist": {
@@ -20,7 +20,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.tauri.dev",
+      "identifier": "com.bootloopmaster636.hyprgen",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -36,7 +36,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "hyprconf",
+        "title": "HyprGen",
         "width": 800,
         "height": 600
       }

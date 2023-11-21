@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+* {
     font-family: 'Josefin Sans', cursive;
+    color: white;
 }

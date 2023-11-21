@@ -1,10 +1,10 @@
 [package]
-name = "hyprconf"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
-license = ""
-repository = ""
+name = "hyprgen"
+version = "0.1.0"
+description = "Hyprland configuration generator"
+authors = ["bootloopmaster636"]
+license = "MIT"
+repository = "https://github.com/bootloopmaster636/HyprGen"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
