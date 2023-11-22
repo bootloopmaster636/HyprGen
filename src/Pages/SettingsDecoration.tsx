@@ -74,6 +74,58 @@ export default function SettingsDecorationPage() {
           />
         </div>
 
+        <p className={"pb-2 pt-6 text-3xl"}>Blur</p>
+        <div className={"grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"}>
+          <SettingsTile
+            title="Enable blur"
+            description="Will enable kawase window background blur"
+          />
+          <SettingsTile
+            title="Blur size"
+            description="Set the blur size (distance)"
+          />
+          <SettingsTile
+            title="Blur passes"
+            description="Set the blur passes (quality)"
+          />
+          <SettingsTile
+            title="Ignore window opacity"
+            description="Make the blur layer ignore the opacity of the window"
+          />
+          <SettingsTile
+            title="Blur X-ray"
+            description="If enabled, floating windows will ignore tiled windows in their blur. Will reduce overhead on floating blur significantly."
+          />
+          <SettingsTile
+            title="Blur noise"
+            description="How much noise to apply. 0.0 - 1.0"
+          />
+          <SettingsTile
+            title="Blur contrast"
+            description="Contrast modulation for blur. 0.0 - 2.0"
+          />
+          <SettingsTile
+            title="Blur noise"
+            description="How much noise to apply. 0.0 - 1.0"
+          />
+          <SettingsTile
+            title="Blur brightness"
+            description="Brightness modulation for blur. 0.0 - 2.0"
+          />
+          <SettingsTile
+            title="Blur vibrancy"
+            description="Increase saturation of blurred colors. 0.0 - 1.0"
+          />
+          <SettingsTile
+            title="Blur vibrancy (dark)"
+            description="How strong the effect of vibrancy is on dark areas . 0.0 - 1.0"
+          />
+          <SettingsTile
+            title="Blur on special"
+            description="Whether to blur behind the special workspace (note: expensive)"
+          />
+        </div>
+
         <p className={"pb-2 pt-6 text-3xl"}>Window dimming</p>
         <div className={"grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"}>
           <SettingsTile
