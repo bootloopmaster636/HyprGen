@@ -10,7 +10,9 @@ function Header() {
   return (
     <div>
       <p className="text-center text-4xl">HyprGen</p>
-      <p className="text-center text-xl">Hyprland configuration generator tool</p>
+      <p className="text-center text-xl">
+        Hyprland configuration generator tool
+      </p>
       <p className="text-md pt-4 text-center italic">
         "Whaddya want to configure?"
       </p>
@@ -39,7 +41,7 @@ function HomePage() {
           title="Decoration"
           description="Rounding, blur, opacity, shadow, etc."
           faIcon="paintbrush"
-          navLink="/WorkInProgress"
+          navLink="/Settings/Decoration"
         />
         <ItemCategories
           title="Input"

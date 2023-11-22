@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import WorkInProgress from "./Pages/WorkInProgress.tsx";
 import { AnimatePresence, motion } from "framer-motion";
 import SettingsGeneralPage from "./Pages/SettingsGeneral.tsx";
+import SettingsDecorationPage from "./Pages/SettingsDecoration.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -34,6 +35,10 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="WorkInProgress" element={<WorkInProgress />} />
             <Route path="Settings/General" element={<SettingsGeneralPage />} />
+            <Route
+              path="Settings/Decoration"
+              element={<SettingsDecorationPage />}
+            />
           </Routes>
         </motion.main>
       </AnimatePresence>

@@ -12,7 +12,7 @@ export default function SettingsGeneralPage() {
       }
     >
       <AppBar title="General" />
-      <div className="flex max-w-5xl flex-col px-6 py-2">
+      <div className="flex max-w-5xl flex-col px-10 py-2">
         <p className={"pb-2 pt-3 text-3xl"}>Border and Gaps</p>
         <div className={"grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"}>
           <SettingsTile
